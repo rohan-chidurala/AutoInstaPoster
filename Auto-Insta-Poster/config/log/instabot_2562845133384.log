@@ -1,0 +1,83 @@
+2020-07-08 15:11:17,460 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-07-08 15:11:17,462 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster\env\lib\site-packages\instabot\bot\bot.py
+2020-07-08 15:11:17,495 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-07-08 15:11:17,495 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-07-08 15:11:17,496 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster/config/luxswear_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=920825ec-f463-4b96-ac98-1118e220ae9a
+- uuid=92cddfe2-c28c-46f8-b5f0-a2a777f91f90
+- client_session_id=1e6bada0-cf64-4541-8a8a-f97e3a1f580b
+- device_id=android-508bf665a7452ee1
+2020-07-08 15:11:17,506 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-07-08 15:11:17,768 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [403]>
+2020-07-08 15:11:17,769 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "user_has_logged_out", "logout_reason": 9, "status": "fail"}'
+2020-07-08 15:11:17,769 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2020-07-08 15:11:17,937 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [403]>
+2020-07-08 15:11:17,937 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "user_has_logged_out", "logout_reason": 9, "status": "fail"}'
+2020-07-08 15:11:17,937 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2020-07-08 15:11:17,939 - instabot version: 0.117.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2020-07-08 15:11:17,941 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-07-08 15:11:17,941 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-07-08 15:11:17,941 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster/config/luxswear_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=920825ec-f463-4b96-ac98-1118e220ae9a
+- uuid=92cddfe2-c28c-46f8-b5f0-a2a777f91f90
+- client_session_id=1e6bada0-cf64-4541-8a8a-f97e3a1f580b
+- device_id=android-508bf665a7452ee1
+2020-07-08 15:11:17,954 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-07-08 15:11:18,142 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-07-08 15:11:18,368 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-07-08 15:11:18,554 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-07-08 15:11:18,743 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-07-08 15:11:20,160 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-07-08 15:11:20,160 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'luxswear'!
+2020-07-08 15:11:20,161 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-07-08 15:11:20,345 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-07-08 15:11:20,504 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-07-08 15:11:20,627 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-508bf665a7452ee1&token_hash=&custom_device_id=android-508bf665a7452ee1&fetch_reason=token_expired returned response: <Response [200]>
+2020-07-08 15:11:20,765 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2020-07-08 15:11:20,905 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-07-08 15:11:21,297 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2020-07-08 15:11:21,434 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2020-07-08 15:11:21,660 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-07-08 15:11:23,390 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-07-08 15:11:23,516 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2020-07-08 15:11:23,829 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2020-07-08 15:11:23,988 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2020-07-08 15:11:24,221 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2020-07-08 15:11:24,381 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2020-07-08 15:11:24,520 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2020-07-08 15:11:24,698 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2020-07-08 15:11:24,890 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2020-07-08 15:11:25,005 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2020-07-08 15:11:25,178 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2020-07-08 15:11:25,423 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/38517430184/info/ returned response: <Response [200]>
+2020-07-08 15:11:25,632 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-07-08 15:11:25,835 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2020-07-08 15:11:26,074 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2020-07-08 15:11:26,261 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=1e6bada0-cf64-4541-8a8a-f97e3a1f580b&include_fixed_destinations=true returned response: <Response [200]>
+2020-07-08 15:11:26,435 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2020-07-08 15:11:26,654 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2020-07-08 15:11:26,655 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster/config/luxswear.checkpoint
+2020-07-08 15:11:29,276 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2020-07-08 15:11:29,276 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'PostingInfo/Image0/0.jpg' is not uploaded.
+2020-07-08 15:11:30,481 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2020-07-08 15:11:30,482 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'PostingInfo/Image0/0.jpg' is not uploaded.
+2020-07-08 15:11:31,212 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/logout/ returned response: <Response [200]>
+2020-07-08 15:11:31,213 - instabot version: 0.117.0 (bot) - INFO - Bot stopped. Worked: 2:11:20.588117
+2020-07-08 15:11:31,214 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster/config/luxswear.checkpoint
+2020-07-08 15:11:31,215 - instabot version: 0.117.0 (bot) - INFO - Total requests: 51
+2020-07-08 15:11:31,231 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-07-08 15:11:31,400 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-07-08 15:11:31,574 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-07-08 15:11:31,733 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-07-08 15:11:31,898 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-07-08 15:11:33,327 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-07-08 15:11:33,328 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/35396123111/DNjQMz7suy/", "api_path": "/challenge/35396123111/DNjQMz7suy/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail", "error_type": "checkpoint_challenge_required"}'
+2020-07-08 15:11:33,328 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-07-08 15:11:33,329 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-07-08 15:11:33,329 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2020-07-08 15:11:36,875 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2020-07-08 15:11:36,876 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'PostingInfo/Image1/0.jpg' is not uploaded.
+2020-07-08 15:11:59,300 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\rohan\Desktop\Python\InstagramBot\Auto-Insta-Poster/config/cheer.this.up.checkpoint
+2020-07-08 15:11:59,301 - instabot version: 0.117.0 (bot) - INFO - Total requests: 56
