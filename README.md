@@ -1,5 +1,5 @@
 # AutoInstaPoster
-Sorry could not upload the original because it has personal info
+UI + you can use multiple accounts with this
 
 # Running the program
 
